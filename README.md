@@ -53,18 +53,16 @@ The project is split into three tiers of questions to test SQL skills of increas
 1. Find the number of stores in each country.
    ```sql
    
-   SELECT 
-	country,
-	COUNT(store_id) as count_of_stores
-FROM stores
-GROUP BY country
-ORDER BY 2 desc
-
-```
-
+	   SELECT 
+		country,
+		COUNT(store_id) as count_of_stores
+	FROM stores
+	GROUP BY country
+	ORDER BY 2 desc
+  ```
 2. Calculate the total number of units sold by each store.
-```sql
-   SELECT 
+ ```sql
+    SELECT 
 	s.store_id,
 	st.store_name,
 	SUM(quantity) as total_units_sold
@@ -75,7 +73,7 @@ ON st.store_id = s.store_id
 GROUP BY 1, 2
 ORDER BY 3 DESC;
 
-```
+ ```
 
 3. Identify how many sales occurred in December 2023.
 4. Determine how many stores have never had a warranty claim filed.

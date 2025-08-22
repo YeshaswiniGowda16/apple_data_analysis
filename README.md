@@ -1,6 +1,6 @@
 # apple_data_analysis
 
-# ![Apple Logo]([https://github.com/YeshaswiniGowda16/apple_data_analysis/blob/main/store.jpg)] Apple Retail Sales SQL Project - Analyzing Millions of Sales Rows
+# ![Apple Logo](https://github.com/YeshaswiniGowda16/apple_data_analysis/blob/main/store.jpg) Apple Retail Sales SQL Project - Analyzing Millions of Sales Rows
 
 ## Project Overview
 
